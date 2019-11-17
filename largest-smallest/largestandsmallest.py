@@ -1,8 +1,12 @@
-# This program reapetedly prompts a user for integer numbers and print out the Largest and the Smallest number. As well the program don't aceept strings or invalid numbers
+'''This program reapetedly prompts a user for integer numbers and print out
+the Largest and the Smallest number. As well the program don't aceept strings
+or invalid numbers'''
 
 
 largest = None
 smallest = None
+print ('This program colects all entered integer numbers and prits out the Largest and the Smallest.')
+print ('\nEnter "done" to print and finish the program.\n\n')
 
 while True:
     num = input("Enter a number: ")
@@ -21,5 +25,5 @@ while True:
         print('Invalid input')
 
 
-print("Maximum is", int(largest))
-print("Minimum is", int(smallest))
+print("Maximum is", largest)
+print("Minimum is", smallest)
