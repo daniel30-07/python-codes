@@ -1,2 +1,2 @@
 
-# My first Python programs!
+# First Python programs!
